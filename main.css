@@ -19,13 +19,8 @@ html, body {
 	position:relative;
 }
 
-#header {
-	background:#ff0;
-	padding:10px;
-}
 
 #body {
-	padding:10px;
 	/* Height of the footer */
 	padding-bottom:30px;
 }
@@ -40,5 +35,4 @@ html, body {
 
 #footer p {
 	margin:0;
-	padding:10px;
 }
