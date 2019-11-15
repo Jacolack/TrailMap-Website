@@ -12,6 +12,17 @@ html,body,h1,h2,h3,h4,h5,h6 {
 	width: 50%;
 }
 
+.icon {
+	height: 50px;
+	margin-right: 10px;
+}
+
+.titleLbl {
+	margin-top: auto;	
+	margin-bottom: auto;	
+	white-space: nowrap;
+}
+
 html, body {
 	margin:0;
 	padding:0;
