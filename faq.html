@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TrailMap FAQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<center><h2><a href="/">TrailMap</a> FAQ</h2></center>
+<button class="accordion">How do I create a map?</button>
+<div class="panel">
+  <p>Tap the + button on the top right. Then, choose your map image from your photo library. Use the map to align your image, and make sure to set your opacity and map type because they are saved for later. Finally, tap Done and choose a name for your map.</p>
+</div>
+
+<button class="accordion">How do I share a map?</button>
+<div class="panel">
+  <p>Either hold down on a map or tap the three vertical dots (<span>&#8942;</span>). This will open up a dialogue where you can share to any service, including: AirDrop, email, and saving it to notes or another file saving service. iMessage currently does not work. <a href="https://stackoverflow.com/questions/50958120/custom-document-type-icon-and-action-not-working">Here</a> is a link to the issue.</p>
+  <p>Sharing a map is a Premium Feature. Learn more <a href = "/Premium">here</a>.</p>
+</div>
+
+<button class="accordion">How do I edit a map's title?</button>
+<div class="panel">
+  <p>Either hold down on a map or tap the three vertical dots (<span>&#8942;</span>). This will open up a dialogue where you can change the title of a map.</p>
+</div>
+    
+<button class="accordion">How do I edit a map?</button>
+<div class="panel">
+  <p>Either hold down on a map or tap the three vertical dots (<span>&#8942;</span>). This will open up a dialogue where you can edit the placement of your image on the map. This is also where you can edit the saved opacity and map type.</p>
+  <p>Editing a map is a Premium Feature. Learn more <a href = "/Premium">here</a>.</p>
+</div>
+    
+    <button class="accordion">How do I get rid of ads?</button>
+<div class="panel">
+  <p>Tap the ? button on the top left. Tap the Premium button to get exclusive features and no ads.</p>
+  <p> Learn more about Premium <a href = "/Premium">here</a>.</p>
+
+</div>
+
+<p>If you have any questions, comments, or suggestions, please email me at <a href="mailto:trailmap@jacksheridan.com">trailmap@jacksheridan.com</a>.</p>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body
+</html>
